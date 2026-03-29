@@ -43,6 +43,11 @@ input {
   border: 1px solid #ccc;
 }
 
+input {
+  padding: 8px;
+  width: 60%;
+}
+
 button {
   padding: 10px 15px;
   cursor: pointer;
