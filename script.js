@@ -20,3 +20,9 @@ function mostrarMensagem() {
 
   document.getElementById("mensagemInput").value = "";
 }
+function limpar() {
+  document.getElementById("msg").innerText = "";
+  document.getElementById("contador").innerText = "Mensagens enviadas: 0";
+  document.getElementById("mensagemInput").value = "";
+  totalMensagens = 0;
+}
